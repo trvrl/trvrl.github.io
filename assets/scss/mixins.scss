@@ -1,0 +1,40 @@
+@import 'variables';
+
+@mixin flat-card {
+	background-color: #FFFFFF;
+	padding: 2rem;
+	width: 65em;
+	max-width: 80em;
+	margin: 0 auto;
+}
+
+// H4
+@mixin card-header {
+	font-size: 26px;
+	font-weight: 400;
+	margin: 0 0 0 -1px;
+}
+
+@mixin card-date {
+	opacity: 0.8;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+@mixin section__outer-container {
+	padding: 4em 1em;
+}
+
+@mixin section__inner-container--lg {
+	max-width: $screen__md;
+	margin: auto;
+}
+
+@mixin section__inner-container--md {
+	max-width: $screen__sm;
+	margin: auto;
+}
+
+@mixin section__inner-container--sm {
+	margin: 0;
+}
